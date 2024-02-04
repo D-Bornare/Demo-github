@@ -1,0 +1,38 @@
+﻿@model project1.Models.emplyeename
+
+
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h2>Amazatic Solutions</h2>
+    <br>
+    <h4>Name of Employee</h4>
+    <form action="/action_page.php" method="post">
+        <input type="text" name="fname" required>
+        <br><br>
+        <input type="hidden" value="Submit">
+    </form>
+
+    <h4>Log ID</h4>
+    <form action="/action_page.php" method="post">
+        <input type="number" name="mname" required>
+        <br><br>
+        <input type="hidden" value="Submit">
+    </form>
+
+    <h4>Password</h4>
+    <form action="/action_page.php" method="post">
+        <input type="password" name="lname" required>
+        <br><br><br><br />
+        <input type="submit" value="Submit">
+    </form>
+
+
+</body>
+</html>
+
